@@ -4,6 +4,18 @@
 *.s#?
 *.b#?
 *.l#?
+.l\$$
+.l\$#?
+.s\$#
+*.b$[0-9]
+*.s\$#
+*.s$$
+*.b$$
+
+*.s$[0-9]
+*.l$[0-9]
+*.l$$
+
 
 # Eagle project file
 # It contains a serial number and references to the file structure
@@ -38,6 +50,8 @@ eagle.epf
 *.info
 
 *.eps
+
+.DS_Store
 
 # file locks introduced since 7.x
 *.lck
