@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.1">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -66,6 +66,7 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="70" name="70" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -371,6 +372,62 @@ DIN A3, landscape with location and doc. field</description>
 <pad name="39" x="24.13" y="23.23" drill="0.6"/>
 <pad name="40" x="24.13" y="25.77" drill="0.6"/>
 </package>
+<package name="FGPMMOPA6H">
+<circle x="0.5" y="0.85" radius="0.5" width="0.8128" layer="51"/>
+<circle x="-9.1" y="8.4" radius="0.3162" width="0.8128" layer="21"/>
+<wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="21"/>
+<wire x1="8" y1="-8" x2="-8" y2="-8" width="0.127" layer="21"/>
+<wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="51"/>
+<wire x1="8" y1="8" x2="8" y2="-8" width="0.127" layer="51"/>
+<wire x1="8" y1="-8" x2="-8" y2="-8" width="0.127" layer="51"/>
+<wire x1="-8" y1="-8" x2="-8" y2="8" width="0.127" layer="51"/>
+<wire x1="8" y1="6" x2="8" y2="-6" width="0.127" layer="21"/>
+<wire x1="8" y1="-7.5" x2="8" y2="-8" width="0.127" layer="21"/>
+<wire x1="8" y1="8" x2="8" y2="7.5" width="0.127" layer="21"/>
+<smd name="P$1" x="-7.5" y="6.75" dx="2" dy="1" layer="1"/>
+<smd name="P$2" x="-7.5" y="5.25" dx="2" dy="1" layer="1"/>
+<smd name="P$3" x="-7.5" y="3.75" dx="2" dy="1" layer="1"/>
+<smd name="P$4" x="-7.5" y="2.25" dx="2" dy="1" layer="1"/>
+<smd name="P$5" x="-7.5" y="0.75" dx="2" dy="1" layer="1"/>
+<smd name="P$6" x="-7.5" y="-0.75" dx="2" dy="1" layer="1"/>
+<smd name="P$7" x="-7.5" y="-2.25" dx="2" dy="1" layer="1"/>
+<smd name="P$8" x="-7.5" y="-3.75" dx="2" dy="1" layer="1"/>
+<smd name="P$9" x="-7.5" y="-5.25" dx="2" dy="1" layer="1"/>
+<smd name="P$10" x="-7.5" y="-6.75" dx="2" dy="1" layer="1"/>
+<smd name="P$11" x="7.5" y="-6.75" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="P$12" x="7.5" y="-5.25" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="P$13" x="7.5" y="-3.75" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="P$14" x="7.5" y="-2.25" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="P$15" x="7.5" y="-0.75" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="P$16" x="7.5" y="0.75" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="P$17" x="7.5" y="2.25" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="P$18" x="7.5" y="3.75" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="P$19" x="7.5" y="5.25" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="P$20" x="7.5" y="6.75" dx="2" dy="1" layer="1" rot="R180"/>
+<text x="-8" y="8.5" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-8" y="-9.5" size="0.8128" layer="27">&gt;VALUE</text>
+<hole x="0.5" y="0.85" drill="3"/>
+</package>
+<package name="JOHNSON_142-0701-806">
+<smd name="RF" x="0" y="-2.54" dx="5.08" dy="2.286" layer="1" rot="R90"/>
+<smd name="1" x="-4.3815" y="-2.54" dx="5.08" dy="2.413" layer="1" rot="R90"/>
+<smd name="2" x="4.3815" y="-2.54" dx="5.08" dy="2.413" layer="1" rot="R90"/>
+<wire x1="-6" y1="-0.1" x2="-6" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="-6" y1="-5.5" x2="6" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="6" y1="-5.5" x2="6" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="6" y1="-0.1" x2="-6" y2="-0.1" width="0.127" layer="21"/>
+<text x="-6.35" y="-5.08" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
+<smd name="4" x="-4.3815" y="-2.54" dx="5.08" dy="2.413" layer="16" rot="R90"/>
+<smd name="3" x="4.3815" y="-2.54" dx="5.08" dy="2.413" layer="16" rot="R90"/>
+<rectangle x1="-3.175" y1="-5.08" x2="3.175" y2="0" layer="41"/>
+</package>
+<package name="SMA">
+<pad name="GND1" x="-2.54" y="2.54" drill="1.6" shape="octagon"/>
+<pad name="GND2" x="2.54" y="2.54" drill="1.6" shape="octagon"/>
+<pad name="GND3" x="2.54" y="-2.54" drill="1.6" shape="octagon"/>
+<pad name="GND4" x="-2.54" y="-2.54" drill="1.6" shape="octagon"/>
+<pad name="SIG" x="0" y="0" drill="1.5" shape="octagon"/>
+</package>
 </packages>
 <symbols>
 <symbol name="IC880A]">
@@ -496,6 +553,66 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="15.24" y1="25.4" x2="-17.78" y2="25.4" width="0.254" layer="94"/>
 <text x="-5.08" y="27.94" size="1.27" layer="95" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-30.48" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
+</symbol>
+<symbol name="FGPMMOPA6H">
+<wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="12.7" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-22.86" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-22.86" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<pin name="1PPS" x="15.24" y="-7.62" length="short" rot="R180"/>
+<pin name="3D-FIX" x="-15.24" y="0" length="short"/>
+<pin name="EX_ANT" x="15.24" y="-12.7" length="short" rot="R180"/>
+<pin name="GND@1" x="-15.24" y="5.08" length="short"/>
+<pin name="GND@2" x="-15.24" y="-7.62" length="short"/>
+<pin name="GND@3" x="15.24" y="-10.16" length="short" rot="R180"/>
+<pin name="GND@4" x="15.24" y="7.62" length="short" rot="R180"/>
+<pin name="NC@1" x="-15.24" y="-2.54" length="short"/>
+<pin name="NC@2" x="-15.24" y="-5.08" length="short"/>
+<pin name="NC@3" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="NC@4" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="NC@5" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="NC@6" x="15.24" y="5.08" length="short" rot="R180"/>
+<pin name="NC@7" x="15.24" y="10.16" length="short" rot="R180"/>
+<pin name="NRESET" x="-15.24" y="7.62" length="short"/>
+<pin name="RTCM" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="RX" x="-15.24" y="-12.7" length="short"/>
+<pin name="TX" x="-15.24" y="-10.16" length="short"/>
+<pin name="VBACKUP" x="-15.24" y="2.54" length="short"/>
+<pin name="VCC" x="-15.24" y="10.16" length="short"/>
+<text x="-7.62" y="17.78" size="1.27" layer="94">FGPMMOPA6H GPS</text>
+<text x="-10.16" y="15.24" size="1.27" layer="94">MTK MT3339 Chipset</text>
+<text x="-10.16" y="-17.78" size="1.27" layer="94">VCC:</text>
+<text x="-9.906" y="-20.32" size="1.27" layer="94">VBACKUP:</text>
+<text x="2.54" y="-17.78" size="1.27" layer="94">3.0-4.3V</text>
+<text x="2.54" y="-20.32" size="1.27" layer="94">2.0-4.3V</text>
+<text x="-12.7" y="22.86" size="1.27" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-25.4" size="1.27" layer="95">&gt;VALUE</text>
+</symbol>
+<symbol name="SMA">
+<pin name="2" x="7.62" y="-5.08" length="middle" direction="pwr" rot="R90"/>
+<pin name="1" x="2.54" y="-5.08" length="middle" direction="pwr" rot="R90"/>
+<pin name="RF" x="-12.7" y="7.62" length="middle"/>
+<wire x1="-7.62" y1="15.24" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="21.59" y2="2.54" width="0.254" layer="94"/>
+<wire x1="21.59" y1="2.54" x2="21.59" y2="12.7" width="0.254" layer="94"/>
+<wire x1="21.59" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
+<text x="12.7" y="15.24" size="2.54" layer="125">&gt;NAME</text>
+<wire x1="12.7" y1="13.97" x2="11.43" y2="1.27" width="0.254" layer="94"/>
+<wire x1="15.24" y1="13.97" x2="13.97" y2="1.27" width="0.254" layer="94"/>
+<wire x1="17.78" y1="13.97" x2="16.51" y2="1.27" width="0.254" layer="94"/>
+<wire x1="20.32" y1="13.97" x2="19.05" y2="1.27" width="0.254" layer="94"/>
+<pin name="3" x="7.62" y="20.32" length="middle" direction="pwr" rot="R270"/>
+<pin name="4" x="2.54" y="20.32" length="middle" direction="pwr" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -644,6 +761,72 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="SPI1_MOSI" pad="38"/>
 <connect gate="G$1" pin="SPI1_SCLK" pad="40"/>
 <connect gate="G$1" pin="TXD" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GPS_FGPMMOPA6H" prefix="U" uservalue="yes">
+<description>&lt;b&gt;GPS Module&lt;/b&gt; - MTK MT3339 Chipset, -165dBm sensitivity, 22 channels, 10Hz, auto-select external antenna options</description>
+<gates>
+<gate name="G$1" symbol="FGPMMOPA6H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FGPMMOPA6H">
+<connects>
+<connect gate="G$1" pin="1PPS" pad="P$13"/>
+<connect gate="G$1" pin="3D-FIX" pad="P$5"/>
+<connect gate="G$1" pin="EX_ANT" pad="P$11"/>
+<connect gate="G$1" pin="GND@1" pad="P$3"/>
+<connect gate="G$1" pin="GND@2" pad="P$8"/>
+<connect gate="G$1" pin="GND@3" pad="P$12"/>
+<connect gate="G$1" pin="GND@4" pad="P$19"/>
+<connect gate="G$1" pin="NC@1" pad="P$6"/>
+<connect gate="G$1" pin="NC@2" pad="P$7"/>
+<connect gate="G$1" pin="NC@3" pad="P$15"/>
+<connect gate="G$1" pin="NC@4" pad="P$16"/>
+<connect gate="G$1" pin="NC@5" pad="P$17"/>
+<connect gate="G$1" pin="NC@6" pad="P$18"/>
+<connect gate="G$1" pin="NC@7" pad="P$20"/>
+<connect gate="G$1" pin="NRESET" pad="P$2"/>
+<connect gate="G$1" pin="RTCM" pad="P$14"/>
+<connect gate="G$1" pin="RX" pad="P$10"/>
+<connect gate="G$1" pin="TX" pad="P$9"/>
+<connect gate="G$1" pin="VBACKUP" pad="P$4"/>
+<connect gate="G$1" pin="VCC" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMA">
+<gates>
+<gate name="G$1" symbol="SMA" x="-2.54" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="JOHNSON_142-0701-806">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="RF" pad="RF"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TH" package="SMA">
+<connects>
+<connect gate="G$1" pin="1" pad="GND1"/>
+<connect gate="G$1" pin="2" pad="GND2"/>
+<connect gate="G$1" pin="3" pad="GND3"/>
+<connect gate="G$1" pin="4" pad="GND4"/>
+<connect gate="G$1" pin="RF" pad="SIG"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -932,7 +1115,7 @@ DIN A3, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="Seeed-Capacitor-2016">
+<library name="Seeed-Capacitor-2016" urn="urn:adsk.eagle:library:450">
 <packages>
 <package name="C0603">
 <description>&lt;b&gt;0603&lt;b&gt;&lt;p&gt;</description>
@@ -1005,7 +1188,7 @@ DIN A3, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="Seeed-Resistor-2016">
+<library name="Seeed-Resistor-2016" urn="urn:adsk.eagle:library:460">
 <packages>
 <package name="R0603">
 <wire x1="0.635" y1="1.397" x2="0.635" y2="-1.397" width="0.127" layer="21"/>
@@ -1994,23 +2177,23 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U2" library="farnell-parts" deviceset="BR24G32-3" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C1" library="Seeed-Capacitor-2016" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" value="100nf"/>
-<part name="R1" library="Seeed-Resistor-2016" deviceset="SMD-RES-1K-1%-1/10W(0603)" device="" value="1K"/>
-<part name="R2" library="Seeed-Resistor-2016" deviceset="SMD-RES-3.9K-5%-1/10W(0603)" device="" value="3.9K"/>
-<part name="R3" library="Seeed-Resistor-2016" deviceset="SMD-RES-3.9K-5%-1/10W(0603)" device="" value="3.9K"/>
+<part name="C1" library="Seeed-Capacitor-2016" library_urn="urn:adsk.eagle:library:450" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" value="100nf"/>
+<part name="R1" library="Seeed-Resistor-2016" library_urn="urn:adsk.eagle:library:460" deviceset="SMD-RES-1K-1%-1/10W(0603)" device="" value="1K"/>
+<part name="R2" library="Seeed-Resistor-2016" library_urn="urn:adsk.eagle:library:460" deviceset="SMD-RES-3.9K-5%-1/10W(0603)" device="" value="3.9K"/>
+<part name="R3" library="Seeed-Resistor-2016" library_urn="urn:adsk.eagle:library:460" deviceset="SMD-RES-3.9K-5%-1/10W(0603)" device="" value="3.9K"/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B2,54"/>
 <part name="U3" library="farnell-parts" deviceset="MCP79412-I/SN" device=""/>
-<part name="C2" library="Seeed-Capacitor-2016" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" value="100nf"/>
+<part name="C2" library="Seeed-Capacitor-2016" library_urn="urn:adsk.eagle:library:450" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" value="100nf"/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R4" library="Seeed-Resistor-2016" deviceset="SMD-RES-10K-5%-1/10W(0603)" device="" value="10K 1/10W"/>
-<part name="R5" library="Seeed-Resistor-2016" deviceset="SMD-RES-10K-5%-1/10W(0603)" device="" value="10K 1/10W"/>
+<part name="R4" library="Seeed-Resistor-2016" library_urn="urn:adsk.eagle:library:460" deviceset="SMD-RES-10K-5%-1/10W(0603)" device="" value="10K 1/10W"/>
+<part name="R5" library="Seeed-Resistor-2016" library_urn="urn:adsk.eagle:library:460" deviceset="SMD-RES-10K-5%-1/10W(0603)" device="" value="10K 1/10W"/>
 <part name="Q1" library="fruit-parts" deviceset="LFXTAL016178" device=""/>
-<part name="C3" library="Seeed-Capacitor-2016" deviceset="CERAMIC-10PF-50V-5%-NPO(0603)" device="" value="10pf"/>
-<part name="C4" library="Seeed-Capacitor-2016" deviceset="CERAMIC-10PF-50V-5%-NPO(0603)" device="" value="10pf"/>
+<part name="C3" library="Seeed-Capacitor-2016" library_urn="urn:adsk.eagle:library:450" deviceset="CERAMIC-10PF-50V-5%-NPO(0603)" device="" value="10pf"/>
+<part name="C4" library="Seeed-Capacitor-2016" library_urn="urn:adsk.eagle:library:450" deviceset="CERAMIC-10PF-50V-5%-NPO(0603)" device="" value="10pf"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GPS1" library="fruit-parts" deviceset="ULTIMATE-GPS" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -2024,6 +2207,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="U4" library="fruit-parts" deviceset="GPS_FGPMMOPA6H" device=""/>
+<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="C5" library="Seeed-Capacitor-2016" library_urn="urn:adsk.eagle:library:450" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" value="100nf"/>
+<part name="U$2" library="fruit-parts" deviceset="SMA" device="TH"/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2051,6 +2241,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="3.81" y1="78.74" x2="151.13" y2="78.74" width="0.1524" layer="150"/>
 <wire x1="151.13" y1="195.58" x2="151.13" y2="256.54" width="0.1524" layer="150"/>
 <wire x1="151.13" y1="177.8" x2="3.81" y2="177.8" width="0.1524" layer="150"/>
+<text x="40.64" y="81.28" size="6.4516" layer="97">Onboard GPS</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -2089,6 +2280,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="GND9" gate="1" x="76.2" y="187.96"/>
 <instance part="+3V5" gate="G$1" x="52.07" y="252.73"/>
 <instance part="P+4" gate="1" x="99.06" y="252.73"/>
+<instance part="U4" gate="G$1" x="78.74" y="142.24"/>
+<instance part="GND7" gate="1" x="67.31" y="109.22"/>
+<instance part="+3V4" gate="G$1" x="34.29" y="162.56"/>
+<instance part="C5" gate="G$1" x="34.29" y="147.32" rot="R270"/>
+<instance part="U$2" gate="G$1" x="127" y="121.92"/>
+<instance part="GND10" gate="1" x="132.08" y="114.3"/>
+<instance part="GND11" gate="1" x="121.92" y="139.7"/>
 </instances>
 <busses>
 </busses>
@@ -2116,6 +2314,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="187.96" y1="113.03" x2="162.56" y2="113.03" width="0.1524" layer="91"/>
 <junction x="187.96" y="113.03"/>
 <label x="167.64" y="113.03" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="VBACKUP"/>
+<wire x1="63.5" y1="144.78" x2="45.72" y2="144.78" width="0.1524" layer="91"/>
+<label x="45.72" y="144.78" size="1.6764" layer="95"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -2235,6 +2438,47 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="GND9" gate="1" pin="GND"/>
 <junction x="76.2" y="190.5"/>
 </segment>
+<segment>
+<pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="67.31" y1="111.76" x2="34.29" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="34.29" y1="111.76" x2="34.29" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="GND@1"/>
+<wire x1="34.29" y1="134.62" x2="34.29" y2="143.51" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="147.32" x2="39.37" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="39.37" y1="147.32" x2="39.37" y2="143.51" width="0.1524" layer="91"/>
+<wire x1="39.37" y1="143.51" x2="34.29" y2="143.51" width="0.1524" layer="91"/>
+<junction x="34.29" y="143.51"/>
+<pinref part="U4" gate="G$1" pin="GND@2"/>
+<wire x1="63.5" y1="134.62" x2="34.29" y2="134.62" width="0.1524" layer="91"/>
+<junction x="34.29" y="134.62"/>
+<wire x1="67.31" y1="111.76" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="111.76" x2="99.06" y2="132.08" width="0.1524" layer="91"/>
+<junction x="67.31" y="111.76"/>
+<pinref part="U4" gate="G$1" pin="GND@3"/>
+<wire x1="99.06" y1="132.08" x2="93.98" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="GND@4"/>
+<wire x1="93.98" y1="149.86" x2="99.06" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="149.86" x2="99.06" y2="132.08" width="0.1524" layer="91"/>
+<junction x="99.06" y="132.08"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="2"/>
+<pinref part="U$2" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="116.84" x2="132.08" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="132.08" y1="116.84" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
+<junction x="132.08" y="116.84"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="3"/>
+<wire x1="134.62" y1="142.24" x2="129.54" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="129.54" y1="142.24" x2="128.27" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="128.27" y1="142.24" x2="121.92" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="4"/>
+<junction x="129.54" y="142.24"/>
+</segment>
 </net>
 <net name="UBLOX_TXD" class="0">
 <segment>
@@ -2243,9 +2487,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="256.54" y="213.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SJ2" gate="G$1" pin="3"/>
-<wire x1="93.98" y1="46.99" x2="71.12" y2="46.99" width="0.1524" layer="91"/>
-<label x="72.39" y="46.99" size="1.778" layer="95"/>
+<pinref part="SJ2" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="57.15" x2="71.12" y2="57.15" width="0.1524" layer="91"/>
+<label x="72.39" y="57.15" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PPS" class="0">
@@ -2370,6 +2614,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="52.07" y1="246.38" x2="52.07" y2="250.19" width="0.1524" layer="91"/>
 <junction x="52.07" y="246.38"/>
 </segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="VCC"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="152.4" x2="34.29" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="34.29" y1="152.4" x2="34.29" y2="151.13" width="0.1524" layer="91"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<wire x1="34.29" y1="152.4" x2="34.29" y2="160.02" width="0.1524" layer="91"/>
+<junction x="34.29" y="152.4"/>
+</segment>
 </net>
 <net name="ID_SC" class="0">
 <segment>
@@ -2460,6 +2713,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="99.06" y1="30.48" x2="119.38" y2="30.48" width="0.1524" layer="91"/>
 <label x="104.14" y="30.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="1PPS"/>
+<wire x1="93.98" y1="134.62" x2="118.11" y2="134.62" width="0.1524" layer="91"/>
+<label x="107.95" y="134.62" size="1.6764" layer="95"/>
+</segment>
 </net>
 <net name="ADA_RXD" class="0">
 <segment>
@@ -2468,9 +2726,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="213.36" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SJ1" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="73.66" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
-<label x="72.39" y="73.66" size="1.778" layer="95"/>
+<pinref part="U4" gate="G$1" pin="RX"/>
+<wire x1="63.5" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
+<label x="40.64" y="129.54" size="1.6764" layer="95"/>
+</segment>
+<segment>
+<pinref part="SJ1" gate="G$1" pin="3"/>
+<wire x1="93.98" y1="63.5" x2="71.12" y2="63.5" width="0.1524" layer="91"/>
+<label x="72.39" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADA_TXD" class="0">
@@ -2480,21 +2743,26 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="213.36" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SJ2" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="57.15" x2="71.12" y2="57.15" width="0.1524" layer="91"/>
-<label x="72.39" y="57.15" size="1.778" layer="95"/>
+<pinref part="U4" gate="G$1" pin="TX"/>
+<wire x1="63.5" y1="132.08" x2="38.1" y2="132.08" width="0.1524" layer="91"/>
+<label x="40.64" y="132.08" size="1.6764" layer="95"/>
+</segment>
+<segment>
+<pinref part="SJ2" gate="G$1" pin="3"/>
+<wire x1="93.98" y1="46.99" x2="71.12" y2="46.99" width="0.1524" layer="91"/>
+<label x="72.39" y="46.99" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UBLOX_RXD" class="0">
 <segment>
-<pinref part="SJ1" gate="G$1" pin="3"/>
-<wire x1="93.98" y1="63.5" x2="71.12" y2="63.5" width="0.1524" layer="91"/>
-<label x="72.39" y="63.5" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="GPS_RX"/>
 <wire x1="274.32" y1="215.9" x2="256.54" y2="215.9" width="0.1524" layer="91"/>
 <label x="256.54" y="215.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SJ1" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="73.66" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
+<label x="72.39" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PI_TXD" class="0">
@@ -2543,6 +2811,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="PI1" gate="G$1" pin="IO27"/>
 <wire x1="55.88" y1="231.14" x2="36.83" y2="231.14" width="0.1524" layer="91"/>
 <label x="36.83" y="231.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPS_ANT" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="RF"/>
+<pinref part="U4" gate="G$1" pin="EX_ANT"/>
+<wire x1="114.3" y1="129.54" x2="93.98" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
