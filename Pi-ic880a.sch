@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -362,6 +362,12 @@ DIN A3, landscape with location and doc. field</description>
 <pad name="38" x="21.59" y="25.77" drill="0.6"/>
 <pad name="39" x="24.13" y="23.23" drill="0.6"/>
 <pad name="40" x="24.13" y="25.77" drill="0.6"/>
+<hole x="-29" y="24.5" drill="2.5"/>
+<hole x="29" y="24.5" drill="2.5"/>
+<hole x="-29" y="1.5" drill="2.5"/>
+<hole x="29" y="1.5" drill="2.5"/>
+<hole x="-29" y="-24.5" drill="2.5"/>
+<hole x="29" y="-24.5" drill="2.5"/>
 </package>
 <package name="FGPMMOPA6H">
 <circle x="0.5" y="0.85" radius="0.5" width="0.8128" layer="51"/>
@@ -418,6 +424,43 @@ DIN A3, landscape with location and doc. field</description>
 <pad name="GND3" x="2.54" y="-2.54" drill="1.6" shape="octagon"/>
 <pad name="GND4" x="-2.54" y="-2.54" drill="1.6" shape="octagon"/>
 <pad name="SIG" x="0" y="0" drill="1.5" shape="octagon"/>
+</package>
+<package name="TEMP-HUM-SENSOR-DHT22">
+<description>&lt;b&gt;DHT22 - digital humidity &amp; temperature sensor&lt;/b&gt;</description>
+<wire x1="-7.62" y1="2.54" x2="-1.524" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-1.524" y1="2.54" x2="1.524" y2="2.54" width="0.127" layer="21"/>
+<wire x1="1.524" y1="2.54" x2="7.62" y2="2.54" width="0.127" layer="21"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="1.016" width="0.127" layer="21"/>
+<wire x1="7.62" y1="1.016" x2="7.62" y2="-5.334" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-5.334" x2="3.175" y2="-5.334" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-5.334" x2="1.905" y2="-5.334" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-5.334" x2="0.635" y2="-5.334" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-5.334" x2="-0.635" y2="-5.334" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-5.334" x2="-1.905" y2="-5.334" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-5.334" x2="-3.175" y2="-5.334" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-5.334" x2="-7.62" y2="-5.334" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-5.334" x2="-7.62" y2="1.016" width="0.127" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="0.8" shape="square"/>
+<pad name="2" x="-1.27" y="0" drill="0.8"/>
+<text x="0" y="3.81" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.35" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<pad name="3" x="1.27" y="0" drill="0.8"/>
+<pad name="4" x="3.81" y="0" drill="0.8"/>
+<wire x1="-7.62" y1="1.016" x2="-7.62" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-5.334" x2="-0.635" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-1.905" x2="0.635" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-1.905" x2="0.635" y2="-5.334" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-5.334" x2="-3.175" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-1.905" x2="-1.905" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-1.905" x2="-1.905" y2="-5.334" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-5.334" x2="1.905" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-1.905" x2="3.175" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-1.905" x2="3.175" y2="-5.334" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="1.016" x2="-1.524" y2="1.016" width="0.127" layer="21"/>
+<wire x1="-1.524" y1="1.016" x2="1.524" y2="1.016" width="0.127" layer="21"/>
+<wire x1="1.524" y1="1.016" x2="7.62" y2="1.016" width="0.127" layer="21"/>
+<wire x1="-1.524" y1="1.016" x2="-1.524" y2="2.54" width="0.127" layer="21"/>
+<wire x1="1.524" y1="1.016" x2="1.524" y2="2.54" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -588,6 +631,33 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="20.32" y1="13.97" x2="19.05" y2="1.27" width="0.254" layer="94"/>
 <pin name="3" x="7.62" y="20.32" length="middle" direction="pwr" rot="R270"/>
 <pin name="4" x="2.54" y="20.32" length="middle" direction="pwr" rot="R270"/>
+</symbol>
+<symbol name="TEMP-HUM-SENSOR-DHT22">
+<description>&lt;b&gt;DHT22 - digital humidity &amp; temperature sensor&lt;/b&gt;</description>
+<pin name="VDD" x="-12.7" y="5.08" length="middle" direction="pwr"/>
+<pin name="DAT" x="-12.7" y="2.54" length="middle"/>
+<pin name="N.C." x="-12.7" y="0" length="middle" direction="pas"/>
+<pin name="GND" x="-12.7" y="-2.54" length="middle" direction="pwr"/>
+<wire x1="-7.62" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="4.064" width="0.254" layer="94"/>
+<wire x1="5.08" y1="4.064" x2="5.08" y2="2.286" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.286" x2="5.08" y2="0.254" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0.254" x2="5.08" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.524" x2="5.08" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-3.556" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="4.826" y1="6.096" x2="1.27" y2="6.096" width="0.254" layer="94"/>
+<wire x1="1.27" y1="6.096" x2="1.27" y2="4.064" width="0.254" layer="94"/>
+<wire x1="1.27" y1="4.064" x2="5.08" y2="4.064" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.286" x2="1.27" y2="2.286" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.286" x2="1.27" y2="0.254" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.254" x2="5.08" y2="0.254" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.524" x2="1.27" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.524" x2="1.27" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-3.556" x2="5.08" y2="-3.556" width="0.254" layer="94"/>
+<text x="-7.62" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="12.7" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -784,6 +854,31 @@ DIN A3, landscape with location and doc. field</description>
 <connect gate="G$1" pin="3" pad="GND3"/>
 <connect gate="G$1" pin="4" pad="GND4"/>
 <connect gate="G$1" pin="RF" pad="SIG"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEMP-HUM-SENSOR-DHT22">
+<description>&lt;b&gt;DHT22 - digital humidity &amp; temperature sensor&lt;/b&gt;&lt;br /&gt;
+Also known as: &lt;b&gt;AM2302&lt;/b&gt;
+&lt;p&gt;&lt;b&gt;AM2302&lt;/b&gt; datasheet available here:&lt;br&gt;
+&lt;a href="http://akizukidenshi.com/download/ds/aosong/AM2302.pdf"&gt;http://akizukidenshi.com/download/ds/aosong/AM2302.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://www.ebay.com/sch/dht22+digital+sensor"&gt;Click here to find device on ebay.com&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="photo" src="http://www.diymodules.org/img/device-photo.php?name=TEMP-HUM-SENSOR-DHT22"&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TEMP-HUM-SENSOR-DHT22" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEMP-HUM-SENSOR-DHT22">
+<connects>
+<connect gate="G$1" pin="DAT" pad="2"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="N.C." pad="3"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2382,6 +2477,122 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="Seeed-Capacitor" urn="urn:adsk.eagle:library:464">
+<packages>
+<package name="C0603" urn="urn:adsk.eagle:footprint:32366/1" library_version="1">
+<description>&lt;b&gt;0603&lt;b&gt;&lt;p&gt;</description>
+<wire x1="0.635" y1="1.397" x2="0.635" y2="-1.397" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-1.397" x2="-0.635" y2="-1.397" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-1.397" x2="-0.635" y2="1.397" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="0.127" layer="21"/>
+<smd name="1" x="0" y="0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
+<smd name="2" x="0" y="-0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
+<text x="0.889" y="1.27" size="0.889" layer="25" ratio="11" rot="R270">&gt;NAME</text>
+<text x="-1.5875" y="1.27" size="0.635" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
+<text x="-0.254" y="1.27" size="0.635" layer="33" ratio="10" rot="R270">&gt;name</text>
+<rectangle x1="-1.27" y1="-0.508" x2="1.27" y2="0.508" layer="39" rot="R270"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="C0603" urn="urn:adsk.eagle:package:32378/1" type="box" library_version="1">
+<description>0603</description>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="C" urn="urn:adsk.eagle:symbol:32365/1" library_version="1">
+<wire x1="-0.635" y1="-1.016" x2="-0.635" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="1.016" width="0.254" layer="94"/>
+<wire x1="0.635" y1="1.016" x2="0.635" y2="0" width="0.254" layer="94"/>
+<wire x1="0.635" y1="0" x2="0.635" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<text x="-3.81" y="1.27" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-2.54" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
+<pin name="1" x="-3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CERAMIC-100PF-50V-5%-NPO(0603)" urn="urn:adsk.eagle:component:32398/1" prefix="C" uservalue="yes" library_version="1">
+<description>302010076</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32378/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CC0603JRNPO9BN101" constant="no"/>
+<attribute name="VALUE" value="100pf"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="Seeed-Resistor" urn="urn:adsk.eagle:library:474">
+<packages>
+<package name="R0603" urn="urn:adsk.eagle:footprint:32775/1" library_version="1">
+<wire x1="0.635" y1="1.397" x2="0.635" y2="-1.397" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-1.397" x2="-0.635" y2="-1.397" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-1.397" x2="-0.635" y2="1.397" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="0.127" layer="21"/>
+<smd name="1" x="0" y="0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
+<smd name="2" x="0" y="-0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
+<text x="-1.016" y="-1.905" size="0.889" layer="25" ratio="11" rot="R90">&gt;NAME</text>
+<text x="1.435" y="-1.605" size="0.635" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="R0603" urn="urn:adsk.eagle:package:32791/1" type="box" library_version="1">
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="RES" urn="urn:adsk.eagle:symbol:32774/1" library_version="1">
+<wire x1="-1.27" y1="0.508" x2="1.27" y2="0.508" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.508" x2="1.27" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-0.508" x2="-1.27" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-0.508" x2="-1.27" y2="0.508" width="0.254" layer="94"/>
+<text x="-3.81" y="1.27" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-2.54" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
+<pin name="1" x="-3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SMD-RES-10K-1%-1/10W(0603)" urn="urn:adsk.eagle:component:32835/1" prefix="R" uservalue="yes" library_version="1">
+<description>301010299</description>
+<gates>
+<gate name="G$1" symbol="RES" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32791/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RC0603FR-0710KL" constant="no"/>
+<attribute name="VALUE" value="10K"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2431,6 +2642,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U3" library="imported-parts" deviceset="DS3231SN" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="U$3" library="fruit-parts" deviceset="TEMP-HUM-SENSOR-DHT22" device=""/>
+<part name="C3" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" deviceset="CERAMIC-100PF-50V-5%-NPO(0603)" device="" package3d_urn="urn:adsk.eagle:package:32378/1" value="100pf"/>
+<part name="R6" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-10K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:32791/1" value="10K"/>
+<part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2500,6 +2716,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="GND11" gate="1" x="121.92" y="139.7"/>
 <instance part="U3" gate="A" x="321.31" y="66.04"/>
 <instance part="+3V2" gate="G$1" x="302.26" y="87.63"/>
+<instance part="U$3" gate="G$1" x="212.09" y="229.87"/>
+<instance part="C3" gate="G$1" x="171.45" y="233.68" rot="R90"/>
+<instance part="R6" gate="G$1" x="180.34" y="233.68" rot="R90"/>
+<instance part="+3V6" gate="G$1" x="171.45" y="240.03"/>
+<instance part="GND5" gate="1" x="184.15" y="224.79"/>
 </instances>
 <busses>
 </busses>
@@ -2705,6 +2926,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="303.53" y1="43.18" x2="303.53" y2="36.83" width="0.1524" layer="91"/>
 <junction x="303.53" y="43.18"/>
 </segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="GND"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="199.39" y1="227.33" x2="184.15" y2="227.33" width="0.1524" layer="91"/>
+<wire x1="184.15" y1="227.33" x2="171.45" y2="227.33" width="0.1524" layer="91"/>
+<wire x1="171.45" y1="227.33" x2="171.45" y2="229.87" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<junction x="184.15" y="227.33"/>
+</segment>
 </net>
 <net name="UBLOX_TXD" class="0">
 <segment>
@@ -2852,6 +3082,17 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="369.57" y1="78.74" x2="369.57" y2="77.47" width="0.1524" layer="91"/>
 <junction x="369.57" y="78.74"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="171.45" y1="237.49" x2="180.34" y2="237.49" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="VDD"/>
+<wire x1="180.34" y1="237.49" x2="199.39" y2="237.49" width="0.1524" layer="91"/>
+<wire x1="199.39" y1="237.49" x2="199.39" y2="234.95" width="0.1524" layer="91"/>
+<junction x="180.34" y="237.49"/>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+<junction x="171.45" y="237.49"/>
 </segment>
 </net>
 <net name="ID_SC" class="0">
@@ -3024,6 +3265,21 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U$2" gate="G$1" pin="RF"/>
 <pinref part="U4" gate="G$1" pin="EX_ANT"/>
 <wire x1="114.3" y1="129.54" x2="93.98" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DHT22" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="DAT"/>
+<wire x1="199.39" y1="232.41" x2="198.12" y2="232.41" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="232.41" x2="198.12" y2="229.87" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="198.12" y1="229.87" x2="180.34" y2="229.87" width="0.1524" layer="91"/>
+<label x="186.69" y="229.87" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PI1" gate="G$1" pin="IO26"/>
+<wire x1="55.88" y1="200.66" x2="36.83" y2="200.66" width="0.1524" layer="91"/>
+<label x="36.83" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
