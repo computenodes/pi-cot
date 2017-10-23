@@ -2987,8 +2987,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="PI1" gate="G$1" pin="IO6"/>
-<wire x1="55.88" y1="208.28" x2="36.83" y2="208.28" width="0.1524" layer="91"/>
-<label x="36.83" y="208.28" size="1.778" layer="95"/>
+<wire x1="55.88" y1="208.28" x2="31.75" y2="208.28" width="0.1524" layer="91"/>
+<label x="31.75" y="208.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
@@ -2999,8 +2999,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="PI1" gate="G$1" pin="SPI0_SCLK"/>
-<wire x1="55.88" y1="218.44" x2="35.56" y2="218.44" width="0.1524" layer="91"/>
-<label x="36.83" y="218.44" size="1.778" layer="95"/>
+<wire x1="55.88" y1="218.44" x2="31.75" y2="218.44" width="0.1524" layer="91"/>
+<label x="31.75" y="218.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -3011,8 +3011,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="PI1" gate="G$1" pin="SPI0_MISO"/>
-<wire x1="55.88" y1="220.98" x2="35.56" y2="220.98" width="0.1524" layer="91"/>
-<label x="36.83" y="220.98" size="1.778" layer="95"/>
+<wire x1="55.88" y1="220.98" x2="31.75" y2="220.98" width="0.1524" layer="91"/>
+<label x="31.75" y="220.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -3023,8 +3023,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="PI1" gate="G$1" pin="SPI0_MOSI"/>
-<wire x1="55.88" y1="223.52" x2="35.56" y2="223.52" width="0.1524" layer="91"/>
-<label x="36.83" y="223.52" size="1.778" layer="95"/>
+<wire x1="55.88" y1="223.52" x2="31.75" y2="223.52" width="0.1524" layer="91"/>
+<label x="31.75" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SX1301_NSS" class="0">
@@ -3035,8 +3035,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="PI1" gate="G$1" pin="SPI0_CS0"/>
-<wire x1="99.06" y1="218.44" x2="119.38" y2="218.44" width="0.1524" layer="91"/>
-<label x="106.68" y="218.44" size="1.778" layer="95"/>
+<wire x1="99.06" y1="218.44" x2="124.46" y2="218.44" width="0.1524" layer="91"/>
+<label x="105.41" y="218.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WP" class="0">
@@ -3129,8 +3129,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="PI1" gate="G$1" pin="ID_SC"/>
-<wire x1="99.06" y1="213.36" x2="119.38" y2="213.36" width="0.1524" layer="91"/>
-<label x="106.68" y="213.36" size="1.778" layer="95"/>
+<wire x1="99.06" y1="213.36" x2="124.46" y2="213.36" width="0.1524" layer="91"/>
+<label x="105.41" y="213.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ID_SD" class="0">
@@ -3143,15 +3143,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="PI1" gate="G$1" pin="ID_SD"/>
-<wire x1="55.88" y1="213.36" x2="35.56" y2="213.36" width="0.1524" layer="91"/>
-<label x="36.83" y="213.36" size="1.778" layer="95"/>
+<wire x1="55.88" y1="213.36" x2="31.75" y2="213.36" width="0.1524" layer="91"/>
+<label x="31.75" y="213.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA" class="0">
 <segment>
 <pinref part="PI1" gate="G$1" pin="I2C1_SDA"/>
-<wire x1="55.88" y1="243.84" x2="36.83" y2="243.84" width="0.1524" layer="91"/>
-<label x="36.83" y="243.84" size="1.778" layer="95"/>
+<wire x1="55.88" y1="243.84" x2="31.75" y2="243.84" width="0.1524" layer="91"/>
+<label x="31.75" y="243.84" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="SDA"/>
@@ -3163,8 +3163,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <net name="SCL" class="0">
 <segment>
 <pinref part="PI1" gate="G$1" pin="I2C1_SCL"/>
-<wire x1="55.88" y1="241.3" x2="36.83" y2="241.3" width="0.1524" layer="91"/>
-<label x="36.83" y="241.3" size="1.778" layer="95"/>
+<wire x1="55.88" y1="241.3" x2="31.75" y2="241.3" width="0.1524" layer="91"/>
+<label x="31.75" y="241.3" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U3" gate="A" pin="SCL"/>
@@ -3244,8 +3244,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="PI1" gate="G$1" pin="TXD"/>
-<wire x1="99.06" y1="238.76" x2="116.84" y2="238.76" width="0.1524" layer="91"/>
-<label x="106.68" y="238.76" size="1.778" layer="95"/>
+<wire x1="99.06" y1="238.76" x2="124.46" y2="238.76" width="0.1524" layer="91"/>
+<label x="105.41" y="238.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PI_RXD" class="0">
@@ -3256,8 +3256,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="PI1" gate="G$1" pin="RXD"/>
-<wire x1="99.06" y1="236.22" x2="116.84" y2="236.22" width="0.1524" layer="91"/>
-<label x="106.68" y="236.22" size="1.778" layer="95"/>
+<wire x1="99.06" y1="236.22" x2="124.46" y2="236.22" width="0.1524" layer="91"/>
+<label x="105.41" y="236.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SX1301_SCAN" class="0">
@@ -3268,8 +3268,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 <segment>
 <pinref part="PI1" gate="G$1" pin="IO22"/>
-<wire x1="55.88" y1="228.6" x2="36.83" y2="228.6" width="0.1524" layer="91"/>
-<label x="36.83" y="228.6" size="1.778" layer="95"/>
+<wire x1="55.88" y1="228.6" x2="31.75" y2="228.6" width="0.1524" layer="91"/>
+<label x="31.75" y="228.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SX1301_RST" class="0">
@@ -3279,9 +3279,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="325.12" y="193.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PI1" gate="G$1" pin="IO27"/>
-<wire x1="55.88" y1="231.14" x2="36.83" y2="231.14" width="0.1524" layer="91"/>
-<label x="36.83" y="231.14" size="1.778" layer="95"/>
+<pinref part="PI1" gate="G$1" pin="IO17"/>
+<wire x1="55.88" y1="233.68" x2="31.75" y2="233.68" width="0.1524" layer="91"/>
+<label x="31.75" y="233.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPS_ANT" class="0">
@@ -3347,13 +3347,106 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="160.02" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="EN_GPS" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="EN_GPS"/>
+<wire x1="274.32" y1="208.28" x2="256.54" y2="208.28" width="0.1524" layer="91"/>
+<label x="256.54" y="208.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PI1" gate="G$1" pin="IO23"/>
+<wire x1="99.06" y1="228.6" x2="124.46" y2="228.6" width="0.1524" layer="91"/>
+<label x="105.41" y="228.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="!GPS_RESET" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="!GPS_RESET"/>
+<wire x1="274.32" y1="205.74" x2="256.54" y2="205.74" width="0.1524" layer="91"/>
+<label x="256.54" y="205.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PI1" gate="G$1" pin="IO27"/>
+<wire x1="55.88" y1="231.14" x2="31.75" y2="231.14" width="0.1524" layer="91"/>
+<label x="31.75" y="231.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SX1301_GPIO0" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="SX1301GPIO0"/>
+<wire x1="320.04" y1="220.98" x2="337.82" y2="220.98" width="0.1524" layer="91"/>
+<label x="325.12" y="220.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PI1" gate="G$1" pin="SPI1_SCLK"/>
+<wire x1="99.06" y1="198.12" x2="124.46" y2="198.12" width="0.1524" layer="91"/>
+<label x="105.41" y="198.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SX1301_GPIO1" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="SX1301GPIO1"/>
+<wire x1="320.04" y1="218.44" x2="337.82" y2="218.44" width="0.1524" layer="91"/>
+<label x="325.12" y="218.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PI1" gate="G$1" pin="SPI1_MOSI"/>
+<wire x1="99.06" y1="200.66" x2="124.46" y2="200.66" width="0.1524" layer="91"/>
+<label x="105.41" y="200.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SX1301_GPIO2" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="SX1301GPIO2"/>
+<wire x1="320.04" y1="215.9" x2="337.82" y2="215.9" width="0.1524" layer="91"/>
+<label x="325.12" y="215.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PI1" gate="G$1" pin="IO12"/>
+<wire x1="99.06" y1="208.28" x2="124.46" y2="208.28" width="0.1524" layer="91"/>
+<label x="105.41" y="208.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SX1301_GPIO3" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="SX1301GPIO3"/>
+<wire x1="320.04" y1="213.36" x2="337.82" y2="213.36" width="0.1524" layer="91"/>
+<label x="325.12" y="213.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PI1" gate="G$1" pin="IO16"/>
+<wire x1="99.06" y1="203.2" x2="124.46" y2="203.2" width="0.1524" layer="91"/>
+<label x="105.41" y="203.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SX1301_GPIO4" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="SX1301GPIO4"/>
+<wire x1="320.04" y1="210.82" x2="337.82" y2="210.82" width="0.1524" layer="91"/>
+<label x="325.12" y="210.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PI1" gate="G$1" pin="IO5"/>
+<wire x1="55.88" y1="210.82" x2="31.75" y2="210.82" width="0.1524" layer="91"/>
+<label x="31.75" y="210.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SP_VALID" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="SP_VALID"/>
+<wire x1="320.04" y1="195.58" x2="337.82" y2="195.58" width="0.1524" layer="91"/>
+<label x="325.12" y="195.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PI1" gate="G$1" pin="IO24"/>
+<wire x1="99.06" y1="226.06" x2="124.46" y2="226.06" width="0.1524" layer="91"/>
+<label x="105.41" y="226.06" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="202,1,274.32,205.74,U1,!GPS_RESET,,,,"/>
-<approved hash="202,1,320.04,195.58,U1,SP_VALID,,,,"/>
-<approved hash="202,1,274.32,208.28,U1,EN_GPS,,,,"/>
 <approved hash="104,1,302.26,236.22,U1,VDD,+5V,,,"/>
 <approved hash="104,1,287.02,236.22,U1,GPS_BATT,VBAT_IC880,,,"/>
 <approved hash="104,1,320.04,124.46,U2,VCC,+3V3,,,"/>
