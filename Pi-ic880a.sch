@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.0">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -223,32 +223,32 @@ DIN A3, landscape with location and doc. field</description>
 <library name="fruit-parts">
 <packages>
 <package name="IC880A">
-<pad name="1" x="-24.3" y="-30.65" drill="0.6" shape="square"/>
-<pad name="2" x="-21.76" y="-30.65" drill="0.6"/>
-<pad name="3" x="-19.22" y="-30.65" drill="0.6"/>
-<pad name="4" x="-16.68" y="-30.65" drill="0.6"/>
-<pad name="5" x="-14.14" y="-30.65" drill="0.6"/>
-<pad name="6" x="-11.6" y="-30.65" drill="0.6"/>
-<pad name="7" x="-9.06" y="-30.65" drill="0.6"/>
-<pad name="8" x="-6.52" y="-30.65" drill="0.6"/>
-<pad name="9" x="-3.98" y="-30.65" drill="0.6"/>
-<pad name="10" x="-1.44" y="-30.65" drill="0.6"/>
-<pad name="17" x="16.34" y="-30.65" drill="0.6"/>
-<pad name="18" x="18.88" y="-30.65" drill="0.6"/>
-<pad name="19" x="21.42" y="-30.65" drill="0.6"/>
-<pad name="20" x="23.96" y="-30.65" drill="0.6"/>
-<pad name="21" x="-21.8" y="30.65" drill="0.6"/>
-<pad name="24" x="21.4" y="30.65" drill="0.6"/>
-<pad name="26" x="26.48" y="30.65" drill="0.6"/>
-<pad name="25" x="23.94" y="30.65" drill="0.6"/>
-<pad name="22" x="-19.26" y="30.65" drill="0.6"/>
-<pad name="16" x="13.8" y="-30.65" drill="0.6"/>
-<pad name="23" x="-16.72" y="30.65" drill="0.6"/>
-<pad name="11" x="1.1" y="-30.65" drill="0.6"/>
-<pad name="13" x="6.18" y="-30.65" drill="0.6"/>
-<pad name="12" x="3.64" y="-30.65" drill="0.6"/>
-<pad name="14" x="8.72" y="-30.65" drill="0.6"/>
-<pad name="15" x="11.26" y="-30.65" drill="0.6"/>
+<pad name="1" x="-24.3" y="-30.65" drill="1" shape="square"/>
+<pad name="2" x="-21.76" y="-30.65" drill="1"/>
+<pad name="3" x="-19.22" y="-30.65" drill="1"/>
+<pad name="4" x="-16.68" y="-30.65" drill="1"/>
+<pad name="5" x="-14.14" y="-30.65" drill="1"/>
+<pad name="6" x="-11.6" y="-30.65" drill="1"/>
+<pad name="7" x="-9.06" y="-30.65" drill="1"/>
+<pad name="8" x="-6.52" y="-30.65" drill="1"/>
+<pad name="9" x="-3.98" y="-30.65" drill="1"/>
+<pad name="10" x="-1.44" y="-30.65" drill="1"/>
+<pad name="17" x="16.34" y="-30.65" drill="1"/>
+<pad name="18" x="18.88" y="-30.65" drill="1"/>
+<pad name="19" x="21.42" y="-30.65" drill="1"/>
+<pad name="20" x="23.96" y="-30.65" drill="1"/>
+<pad name="21" x="-21.8" y="30.65" drill="1"/>
+<pad name="24" x="21.4" y="30.65" drill="1"/>
+<pad name="26" x="26.48" y="30.65" drill="1"/>
+<pad name="25" x="23.94" y="30.65" drill="1"/>
+<pad name="22" x="-19.26" y="30.65" drill="1"/>
+<pad name="16" x="13.8" y="-30.65" drill="1"/>
+<pad name="23" x="-16.72" y="30.65" drill="1"/>
+<pad name="11" x="1.1" y="-30.65" drill="1"/>
+<pad name="13" x="6.18" y="-30.65" drill="1"/>
+<pad name="12" x="3.64" y="-30.65" drill="1"/>
+<pad name="14" x="8.72" y="-30.65" drill="1"/>
+<pad name="15" x="11.26" y="-30.65" drill="1"/>
 <hole x="-37" y="27.5" drill="3"/>
 <hole x="37" y="27.5" drill="3"/>
 <hole x="-37" y="-27.5" drill="3"/>
@@ -260,15 +260,15 @@ DIN A3, landscape with location and doc. field</description>
 <text x="-2.54" y="30.48" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="ULTIMATE-GPS">
-<pad name="1" x="-10.16" y="-15.494" drill="0.6"/>
-<pad name="2" x="-7.62" y="-15.494" drill="0.6"/>
-<pad name="3" x="-5.08" y="-15.494" drill="0.6"/>
-<pad name="4" x="-2.54" y="-15.494" drill="0.6"/>
-<pad name="5" x="0" y="-15.494" drill="0.6"/>
-<pad name="6" x="2.54" y="-15.494" drill="0.6"/>
-<pad name="7" x="5.08" y="-15.494" drill="0.6"/>
-<pad name="8" x="7.62" y="-15.494" drill="0.6"/>
-<pad name="9" x="10.16" y="-15.494" drill="0.6"/>
+<pad name="1" x="-10.16" y="-15.494" drill="1"/>
+<pad name="2" x="-7.62" y="-15.494" drill="1"/>
+<pad name="3" x="-5.08" y="-15.494" drill="1"/>
+<pad name="4" x="-2.54" y="-15.494" drill="1"/>
+<pad name="5" x="0" y="-15.494" drill="1"/>
+<pad name="6" x="2.54" y="-15.494" drill="1"/>
+<pad name="7" x="5.08" y="-15.494" drill="1"/>
+<pad name="8" x="7.62" y="-15.494" drill="1"/>
+<pad name="9" x="10.16" y="-15.494" drill="1"/>
 <wire x1="-12.7" y1="17.526" x2="12.7" y2="17.526" width="0.127" layer="21"/>
 <wire x1="12.7" y1="17.526" x2="12.7" y2="-17.526" width="0.127" layer="21"/>
 <wire x1="12.7" y1="-17.526" x2="-12.7" y2="-17.526" width="0.127" layer="21"/>
@@ -404,6 +404,7 @@ DIN A3, landscape with location and doc. field</description>
 <text x="-8" y="8.5" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-8" y="-9.5" size="0.8128" layer="27">&gt;VALUE</text>
 <hole x="0.5" y="0.85" drill="3"/>
+<text x="-5.08" y="5.08" size="1.778" layer="21">*</text>
 </package>
 <package name="JOHNSON_142-0701-806">
 <smd name="RF" x="0" y="-2.54" dx="5.08" dy="2.286" layer="1" rot="R90"/>
