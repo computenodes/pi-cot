@@ -273,8 +273,8 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="12.7" y1="17.526" x2="12.7" y2="-17.526" width="0.127" layer="21"/>
 <wire x1="12.7" y1="-17.526" x2="-12.7" y2="-17.526" width="0.127" layer="21"/>
 <wire x1="-12.7" y1="-17.526" x2="-12.7" y2="17.526" width="0.127" layer="21"/>
-<hole x="-10.16" y="15.748" drill="2.286"/>
-<hole x="10.16" y="15.748" drill="2.286"/>
+<hole x="-10.16" y="13.858" drill="3"/>
+<hole x="10.16" y="13.858" drill="3"/>
 </package>
 <package name="CR2016">
 <wire x1="-17.4" y1="11.4" x2="-17.4" y2="6.2" width="0.127" layer="21"/>
