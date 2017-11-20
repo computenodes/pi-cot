@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.1">
+<eagle version="8.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -237,8 +237,8 @@ DIN A3, landscape with location and doc. field</description>
 <pad name="18" x="18.88" y="-30.65" drill="1"/>
 <pad name="19" x="21.42" y="-30.65" drill="1"/>
 <pad name="20" x="23.96" y="-30.65" drill="1"/>
-<pad name="21" x="-21.8" y="30.65" drill="1"/>
-<pad name="24" x="21.4" y="30.65" drill="1"/>
+<pad name="21" x="-21.8" y="30.65" drill="1" shape="square"/>
+<pad name="24" x="21.4" y="30.65" drill="1" shape="square"/>
 <pad name="26" x="26.48" y="30.65" drill="1"/>
 <pad name="25" x="23.94" y="30.65" drill="1"/>
 <pad name="22" x="-19.26" y="30.65" drill="1"/>
@@ -2667,7 +2667,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U3" library="imported-parts" deviceset="DS3231SN" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U$3" library="fruit-parts" deviceset="TEMP-HUM-SENSOR-DHT22" device=""/>
-<part name="C3" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" deviceset="CERAMIC-100PF-50V-5%-NPO(0603)" device="" package3d_urn="urn:adsk.eagle:package:32378/1" value="100pf"/>
+<part name="C3" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" deviceset="CERAMIC-100PF-50V-5%-NPO(0603)" device="" package3d_urn="urn:adsk.eagle:package:32378/1" value="100nf"/>
 <part name="R6" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-10K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:32791/1" value="10K"/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
