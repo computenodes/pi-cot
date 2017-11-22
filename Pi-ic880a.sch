@@ -990,13 +990,6 @@ Also known as: &lt;b&gt;AM2302&lt;/b&gt;
 <wire x1="-4" y1="5" x2="-7.5" y2="5" width="0.1524" layer="21"/>
 <wire x1="-7.5" y1="5" x2="-7.5" y2="-5" width="0.1524" layer="21"/>
 <wire x1="-4" y1="5" x2="-4" y2="-5" width="0.1524" layer="21"/>
-<circle x="0" y="-8" radius="1" width="0.1524" layer="136"/>
-<wire x1="0" y1="-8" x2="5" y2="-8" width="0.1524" layer="136"/>
-<text x="6" y="-9" size="1.778" layer="136">+</text>
-<wire x1="0" y1="-10" x2="-2" y2="-8" width="0.1524" layer="136" curve="-90"/>
-<wire x1="-2" y1="-8" x2="0" y2="-6" width="0.1524" layer="136" curve="-90"/>
-<wire x1="-2" y1="-8" x2="-5" y2="-8" width="0.1524" layer="136"/>
-<text x="-7" y="-9" size="1.778" layer="136">-</text>
 </package>
 </packages>
 <symbols>

@@ -7,9 +7,9 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -29,14 +29,14 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -47,19 +47,19 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -111,10 +111,10 @@
 <layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
-<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="134" name="silk_top" color="7" fill="1" visible="no" active="no"/>
 <layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="no"/>
-<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="no" active="yes"/>
 <layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="DrillLegend" color="7" fill="1" visible="no" active="no"/>
 <layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="no" active="yes"/>
@@ -192,7 +192,7 @@
 <vertex x="26.924" y="-12.446"/>
 <vertex x="17.78" y="-12.446"/>
 </polygon>
-<text x="28.956" y="-31.75" size="2.1844" layer="137" ratio="10" rot="SMR0">University of Southampton</text>
+<text x="49.022" y="-31.496" size="2.1844" layer="137" ratio="10" rot="SMR0">University of Southampton</text>
 <text x="22.5" y="-30.5" size="2" layer="129" ratio="10">Adafruit Ultimate GPS</text>
 <text x="3.556" y="-8.128" size="1.27" layer="136" ratio="10">Backup Batt</text>
 <text x="6.35" y="-3.302" size="1.27" layer="136" ratio="10" rot="R90">RTC</text>
@@ -224,8 +224,15 @@
 <wire x1="7.366" y1="1.016" x2="7.366" y2="-5.08" width="0.3048" layer="136"/>
 <wire x1="11.684" y1="1.016" x2="11.684" y2="-5.08" width="0.3048" layer="136"/>
 <text x="29.21" y="-31.75" size="2.1844" layer="136" ratio="10" rot="SR0">University of Southampton</text>
-<text x="63.5" y="10.16" size="2.54" layer="137" ratio="10" rot="R90">Pi-CoT</text>
+<text x="63.5" y="10.16" size="2.54" layer="136" ratio="10" rot="R90">Pi-CoT</text>
 <text x="-6.985" y="35.687" size="2.1844" layer="137" ratio="10" rot="MR0">5V DC</text>
+<wire x1="-13.462" y1="52.578" x2="-9.652" y2="52.578" width="0.254" layer="137"/>
+<circle x="-13.462" y="52.578" radius="1.016" width="0.254" layer="137"/>
+<wire x1="-13.462" y1="50.546" x2="-15.494" y2="52.578" width="0.254" layer="137" curve="-90"/>
+<wire x1="-15.494" y1="52.578" x2="-13.462" y2="54.61" width="0.254" layer="137" curve="-90"/>
+<wire x1="-15.494" y1="52.578" x2="-17.272" y2="52.578" width="0.254" layer="137"/>
+<text x="-19.558" y="51.4604" size="2.1844" layer="137" ratio="10">-</text>
+<text x="-8.8646" y="51.4858" size="2.1844" layer="137" ratio="10">+</text>
 </plain>
 <libraries>
 <library name="Seeed-Capacitor-2016" urn="urn:adsk.eagle:library:450">
@@ -601,13 +608,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-4" y1="5" x2="-7.5" y2="5" width="0.1524" layer="21"/>
 <wire x1="-7.5" y1="5" x2="-7.5" y2="-5" width="0.1524" layer="21"/>
 <wire x1="-4" y1="5" x2="-4" y2="-5" width="0.1524" layer="21"/>
-<circle x="0" y="-8" radius="1" width="0.1524" layer="136"/>
-<wire x1="0" y1="-8" x2="5" y2="-8" width="0.1524" layer="136"/>
-<text x="6" y="-9" size="1.778" layer="136">+</text>
-<wire x1="0" y1="-10" x2="-2" y2="-8" width="0.1524" layer="136" curve="-90"/>
-<wire x1="-2" y1="-8" x2="0" y2="-6" width="0.1524" layer="136" curve="-90"/>
-<wire x1="-2" y1="-8" x2="-5" y2="-8" width="0.1524" layer="136"/>
-<text x="-7" y="-9" size="1.778" layer="136">-</text>
 </package>
 </packages>
 </library>
