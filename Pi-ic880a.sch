@@ -322,46 +322,46 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="31" y1="-2" x2="32.5" y2="-0.5" width="0.5" layer="21" curve="90"/>
 <text x="-23" y="-27.5" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="8.5" y="-27.5" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<pad name="2" x="-24.13" y="25.77" drill="0.6"/>
-<pad name="1" x="-24.13" y="23.23" drill="0.6"/>
-<pad name="3" x="-21.59" y="23.23" drill="0.6"/>
-<pad name="4" x="-21.59" y="25.77" drill="0.6"/>
-<pad name="5" x="-19.05" y="23.23" drill="0.6"/>
-<pad name="6" x="-19.05" y="25.77" drill="0.6"/>
-<pad name="7" x="-16.51" y="23.23" drill="0.6"/>
-<pad name="8" x="-16.51" y="25.77" drill="0.6"/>
-<pad name="9" x="-13.97" y="23.23" drill="0.6"/>
-<pad name="10" x="-13.97" y="25.77" drill="0.6"/>
-<pad name="11" x="-11.43" y="23.23" drill="0.6"/>
-<pad name="12" x="-11.43" y="25.77" drill="0.6"/>
-<pad name="13" x="-8.89" y="23.23" drill="0.6"/>
-<pad name="14" x="-8.89" y="25.77" drill="0.6"/>
-<pad name="15" x="-6.35" y="23.23" drill="0.6"/>
-<pad name="16" x="-6.35" y="25.77" drill="0.6"/>
-<pad name="17" x="-3.81" y="23.23" drill="0.6"/>
-<pad name="18" x="-3.81" y="25.77" drill="0.6"/>
-<pad name="19" x="-1.27" y="23.23" drill="0.6"/>
-<pad name="20" x="-1.27" y="25.77" drill="0.6"/>
-<pad name="21" x="1.27" y="23.23" drill="0.6"/>
-<pad name="22" x="1.27" y="25.77" drill="0.6"/>
-<pad name="23" x="3.81" y="23.23" drill="0.6"/>
-<pad name="24" x="3.81" y="25.77" drill="0.6"/>
-<pad name="25" x="6.35" y="23.23" drill="0.6"/>
-<pad name="26" x="6.35" y="25.77" drill="0.6"/>
-<pad name="27" x="8.89" y="23.23" drill="0.6"/>
-<pad name="28" x="8.89" y="25.77" drill="0.6"/>
-<pad name="29" x="11.43" y="23.23" drill="0.6"/>
-<pad name="30" x="11.43" y="25.77" drill="0.6"/>
-<pad name="31" x="13.97" y="23.23" drill="0.6"/>
-<pad name="32" x="13.97" y="25.77" drill="0.6"/>
-<pad name="33" x="16.51" y="23.23" drill="0.6"/>
-<pad name="34" x="16.51" y="25.77" drill="0.6"/>
-<pad name="35" x="19.05" y="23.23" drill="0.6"/>
-<pad name="36" x="19.05" y="25.77" drill="0.6"/>
-<pad name="37" x="21.59" y="23.23" drill="0.6"/>
-<pad name="38" x="21.59" y="25.77" drill="0.6"/>
-<pad name="39" x="24.13" y="23.23" drill="0.6"/>
-<pad name="40" x="24.13" y="25.77" drill="0.6"/>
+<pad name="2" x="-24.13" y="25.77" drill="0.8"/>
+<pad name="1" x="-24.13" y="23.23" drill="0.8"/>
+<pad name="3" x="-21.59" y="23.23" drill="0.8"/>
+<pad name="4" x="-21.59" y="25.77" drill="0.8"/>
+<pad name="5" x="-19.05" y="23.23" drill="0.8"/>
+<pad name="6" x="-19.05" y="25.77" drill="0.8"/>
+<pad name="7" x="-16.51" y="23.23" drill="0.8"/>
+<pad name="8" x="-16.51" y="25.77" drill="0.8"/>
+<pad name="9" x="-13.97" y="23.23" drill="0.8"/>
+<pad name="10" x="-13.97" y="25.77" drill="0.8"/>
+<pad name="11" x="-11.43" y="23.23" drill="0.8"/>
+<pad name="12" x="-11.43" y="25.77" drill="0.8"/>
+<pad name="13" x="-8.89" y="23.23" drill="0.8"/>
+<pad name="14" x="-8.89" y="25.77" drill="0.8"/>
+<pad name="15" x="-6.35" y="23.23" drill="0.8"/>
+<pad name="16" x="-6.35" y="25.77" drill="0.8"/>
+<pad name="17" x="-3.81" y="23.23" drill="0.8"/>
+<pad name="18" x="-3.81" y="25.77" drill="0.8"/>
+<pad name="19" x="-1.27" y="23.23" drill="0.8"/>
+<pad name="20" x="-1.27" y="25.77" drill="0.8"/>
+<pad name="21" x="1.27" y="23.23" drill="0.8"/>
+<pad name="22" x="1.27" y="25.77" drill="0.8"/>
+<pad name="23" x="3.81" y="23.23" drill="0.8"/>
+<pad name="24" x="3.81" y="25.77" drill="0.8"/>
+<pad name="25" x="6.35" y="23.23" drill="0.8"/>
+<pad name="26" x="6.35" y="25.77" drill="0.8"/>
+<pad name="27" x="8.89" y="23.23" drill="0.8"/>
+<pad name="28" x="8.89" y="25.77" drill="0.8"/>
+<pad name="29" x="11.43" y="23.23" drill="0.8"/>
+<pad name="30" x="11.43" y="25.77" drill="0.8"/>
+<pad name="31" x="13.97" y="23.23" drill="0.8"/>
+<pad name="32" x="13.97" y="25.77" drill="0.8"/>
+<pad name="33" x="16.51" y="23.23" drill="0.8"/>
+<pad name="34" x="16.51" y="25.77" drill="0.8"/>
+<pad name="35" x="19.05" y="23.23" drill="0.8"/>
+<pad name="36" x="19.05" y="25.77" drill="0.8"/>
+<pad name="37" x="21.59" y="23.23" drill="0.8"/>
+<pad name="38" x="21.59" y="25.77" drill="0.8"/>
+<pad name="39" x="24.13" y="23.23" drill="0.8"/>
+<pad name="40" x="24.13" y="25.77" drill="0.8"/>
 <hole x="-29" y="24.5" drill="2.5"/>
 <hole x="29" y="24.5" drill="2.5"/>
 <hole x="-29" y="1.5" drill="2.5"/>
@@ -979,6 +979,25 @@ Also known as: &lt;b&gt;AM2302&lt;/b&gt;
 <text x="-3" y="3" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3" y="-4" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="FC681465P">
+<pad name="1" x="6.2" y="0" drill="1.6"/>
+<pad name="2" x="3.1" y="-5" drill="1.6"/>
+<pad name="3" x="0" y="0" drill="1.6"/>
+<wire x1="-7.5" y1="-5" x2="-4" y2="-5" width="0.1524" layer="21"/>
+<wire x1="-4" y1="-5" x2="7" y2="-5" width="0.1524" layer="21"/>
+<wire x1="7" y1="-5" x2="7" y2="5" width="0.1524" layer="21"/>
+<wire x1="7" y1="5" x2="-4" y2="5" width="0.1524" layer="21"/>
+<wire x1="-4" y1="5" x2="-7.5" y2="5" width="0.1524" layer="21"/>
+<wire x1="-7.5" y1="5" x2="-7.5" y2="-5" width="0.1524" layer="21"/>
+<wire x1="-4" y1="5" x2="-4" y2="-5" width="0.1524" layer="21"/>
+<circle x="0" y="-8" radius="1" width="0.1524" layer="136"/>
+<wire x1="0" y1="-8" x2="5" y2="-8" width="0.1524" layer="136"/>
+<text x="6" y="-9" size="1.778" layer="136">+</text>
+<wire x1="0" y1="-10" x2="-2" y2="-8" width="0.1524" layer="136" curve="-90"/>
+<wire x1="-2" y1="-8" x2="0" y2="-6" width="0.1524" layer="136" curve="-90"/>
+<wire x1="-2" y1="-8" x2="-5" y2="-8" width="0.1524" layer="136"/>
+<text x="-7" y="-9" size="1.778" layer="136">-</text>
+</package>
 </packages>
 <symbols>
 <symbol name="EEPROM">
@@ -996,6 +1015,39 @@ Also known as: &lt;b&gt;AM2302&lt;/b&gt;
 <wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
 <text x="-5.08" y="12.7" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="POWER-JACK-DC">
+<wire x1="3.81" y1="2.54" x2="1.27" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="3.175" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="3.175" x2="1.016" y2="3.175" width="0.1524" layer="91"/>
+<wire x1="1.016" y1="3.175" x2="1.016" y2="3.048" width="0.1524" layer="91"/>
+<wire x1="1.016" y1="3.048" x2="-0.762" y2="3.048" width="0.1524" layer="91"/>
+<wire x1="-0.762" y1="3.048" x2="-1.27" y2="2.54" width="0.1524" layer="91" curve="90"/>
+<wire x1="-1.27" y1="2.54" x2="-0.762" y2="2.032" width="0.1524" layer="91" curve="90"/>
+<wire x1="-0.762" y1="2.032" x2="1.016" y2="2.032" width="0.1524" layer="91"/>
+<wire x1="1.016" y1="2.032" x2="1.016" y2="1.905" width="0.1524" layer="91"/>
+<wire x1="1.016" y1="1.905" x2="1.27" y2="1.905" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="1.905" x2="1.27" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="1.016" y1="3.048" x2="1.016" y2="2.032" width="0.1524" layer="91"/>
+<wire x1="3.81" y1="0" x2="1.27" y2="0" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="-2.54" x2="1.016" y2="-1.905" width="0.1524" layer="91"/>
+<wire x1="1.27" y1="-2.54" x2="1.524" y2="-1.905" width="0.1524" layer="91"/>
+<wire x1="3.81" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="0" y1="-2.54" x2="-0.635" y2="-1.905" width="0.1524" layer="91"/>
+<wire x1="-0.635" y1="-1.905" x2="-1.27" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-3.81" y1="3.81" x2="3.81" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="3.81" x2="3.81" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-3.81" x2="-3.81" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="-3.81" x2="-3.81" y2="3.81" width="0.1524" layer="94"/>
+<text x="-6.35" y="1.905" size="1.27" layer="93" ratio="10">+</text>
+<text x="-6.35" y="-3.175" size="1.27" layer="93" ratio="10">-</text>
+<text x="-7.62" y="-0.508" size="1.016" layer="93" ratio="10">CDN</text>
+<text x="-5.08" y="5.08" size="1.27" layer="95" ratio="10">&gt;name</text>
+<text x="1.27" y="5.08" size="1.27" layer="96" ratio="10">&gt;value</text>
+<pin name="+" x="6.35" y="2.54" visible="off" length="short" direction="pwr" rot="R180"/>
+<pin name="-" x="6.35" y="-2.54" visible="off" length="short" direction="pwr" rot="R180"/>
+<pin name="CDN" x="6.35" y="0" visible="off" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1015,6 +1067,23 @@ Also known as: &lt;b&gt;AM2302&lt;/b&gt;
 <connect gate="G$1" pin="SDA" pad="5"/>
 <connect gate="G$1" pin="VCC" pad="8"/>
 <connect gate="G$1" pin="WP" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FC681465P" prefix="J">
+<gates>
+<gate name="G$1" symbol="POWER-JACK-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FC681465P">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="3"/>
+<connect gate="G$1" pin="CDN" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2676,6 +2745,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R8" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-0R-5%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:32791/1" value="0R"/>
 <part name="R9" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-0R-5%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:32791/1" value="0R"/>
 <part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
+<part name="J1" library="farnell-parts" deviceset="FC681465P" device=""/>
+<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2704,6 +2776,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="151.13" y1="195.58" x2="151.13" y2="256.54" width="0.1524" layer="150"/>
 <wire x1="151.13" y1="177.8" x2="3.81" y2="177.8" width="0.1524" layer="150"/>
 <text x="40.64" y="81.28" size="6.4516" layer="97">Onboard GPS</text>
+<text x="179.07" y="154.94" size="6.4516" layer="150">DC in</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -2755,6 +2828,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="R8" gate="G$1" x="181.61" y="113.03"/>
 <instance part="R9" gate="G$1" x="181.61" y="106.68"/>
 <instance part="TP3" gate="G$1" x="194.31" y="119.38"/>
+<instance part="J1" gate="G$1" x="186.69" y="179.07"/>
+<instance part="GND12" gate="1" x="193.04" y="173.99"/>
+<instance part="P+3" gate="1" x="203.2" y="185.42"/>
 </instances>
 <busses>
 </busses>
@@ -2798,6 +2874,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="P+4" gate="1" pin="+5V"/>
 <wire x1="99.06" y1="246.38" x2="99.06" y2="250.19" width="0.1524" layer="91"/>
 <junction x="99.06" y="246.38"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="+"/>
+<pinref part="P+3" gate="1" pin="+5V"/>
+<wire x1="193.04" y1="181.61" x2="203.2" y2="181.61" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="181.61" x2="203.2" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -2961,6 +3043,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="171.45" y1="227.33" x2="171.45" y2="229.87" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <junction x="184.15" y="227.33"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="-"/>
+<pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="UBLOX_TXD" class="0">
