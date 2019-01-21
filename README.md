@@ -1,5 +1,7 @@
 # Pi-iC880a
 
+[![DOI](https://zenodo.org/badge/98336361.svg)](https://zenodo.org/badge/latestdoi/98336361)
+
 Adapter board to interface between the Raspberry Pi and the [iC880a LoRaWAN](https://wireless-solutions.de/products/radiomodules/ic880a.html) concentrator.  It also supports an EEPROM for HAT identification, DS3231 RTC chip for maintaining time between powercycles, and a [DHT-22](http://www.hobbytronics.co.uk/rht03-humidity-temp-sensor?keyword=dht22) for temperature/humidity sensing.
 
 This board supports using 3 different GPS modules for the timing/positioning
